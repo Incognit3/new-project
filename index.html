@@ -2,18 +2,44 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
- 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+	<title>2019 Football // SPORT!</title>
+	<link rel="stylesheet" href="css/style.css">
+
+<style>
+  body {
+    background-image: url(img/sport.jpg); 
+    background-color: #c7b39b; }
+
+</style>
 </head>
 <body>
+ 
+ <div id="main">
+	
+<!-- Меню получает значение "active" в качестве класса. -->
+	
+<!-- Чтобы предотвратить "прыжки" страницы при изменении ссылки, используем модификатор "prevent" (сокращение для preventDefault). -->
 
+<nav v-bind:class="active" v-on:click.prevent>
 
+<!-- Когда происходит нажатие на ссылку, вызываем метод makeActive, определенный как js-сущность Vue. -->
 
+		<a href="#" class="home" v-on:click="makeActive('home')">Главная</a>
+		<a href="#" class="projects" v-on:click="makeActive('projects')">Проекты</a>
+		<a href="#" class="services" v-on:click="makeActive('services')">Услуги</a>
+		<a href="#" class="contact" v-on:click="makeActive('contact')">Контакты</a>
+		<a href="#" class="settings" v-on:click="makeActive('settings')">Настройки</a>
+	
+	</nav>
 
+<div class="logosport">
+	<img src="img/logo-sport.png" style="margin-left: 35px; margin-top: 110px"></div>
 
-<script src="https://unpkg.com/@material-ui/core/umd/material-ui.production.min.js" crossorigin="anonymous"></script>
+<!-- Шаблонное значение будет заменено на значение переменной "active". Все изменения будут автоматически отражены на странице. -->
+
+<script src="js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>  
 
 </body>
 </html>
-  
-
