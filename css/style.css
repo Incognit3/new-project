@@ -55,7 +55,11 @@ a:hover {
     height: 350px;
     position: relative;
     padding-bottom: 26px;
+<<<<<<< HEAD
     background: url(../img/dObOup8yqas.jpg) no-repeat bottom center; }
+=======
+    background: url(../gfx/bottom_shadow.png) no-repeat bottom center; }
+>>>>>>> 421e797f9ea63799d73d066ceb3abfdac00c93b9
 
 .sliderContent {
     float: left;
@@ -70,7 +74,11 @@ a:hover {
     text-indent: -9999px;
     outline: none;
     z-index: 50;
+<<<<<<< HEAD
     background-image: url(../img/iPH7K7Myvrg.jpg);
+=======
+    background-image: url(../gfx/prev_next.png);
+>>>>>>> 421e797f9ea63799d73d066ceb3abfdac00c93b9
     width: 42px;
     height: 42px;
     position: absolute;
@@ -112,7 +120,11 @@ a:hover {
     margin-left: 5px;
     width: 10px;
     height: 11px;
+<<<<<<< HEAD
     background: url(../img/pALfsopEvAA.jpg) no-repeat; }
+=======
+    background: url(../gfx/bullets.png) no-repeat; }
+>>>>>>> 421e797f9ea63799d73d066ceb3abfdac00c93b9
 
 .sliderBullets .active {
     background-position: 0 -11px; }
