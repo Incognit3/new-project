@@ -1,9 +1,3 @@
-  $('.slider').mobilyslider({
-        transition: 'vertical',
-        animationSpeed: 500,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        pauseOnHover: true,
-        bullets: false
+ $(document).ready(function(){
+      $('.slider').bxSlider();
     });
-        
