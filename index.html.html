@@ -10,8 +10,9 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
  
 
 </head>
@@ -23,17 +24,17 @@
     <!-- голова -->
 
   <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Sport</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo" style="text-decoration: none;">Sport</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#" style="text-decoration: none;">Navbar Link</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
         <li><a href="#">Navbar Link</a></li>
       </ul>
-      <!-- <ul id="nav-mobileOne" class="history">
-        <li><a href="#">History of football</a></li>
-      </ul> -->
+      <ul id="nav-mobileOne" class="history">
+        <li><a href="history.html" target="_parent" style="text-decoration: none;">History of football</a></li>
+      </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
@@ -43,13 +44,14 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center orange-text">FIRE STRIKE FOOTBALL BOX</h1>
+      <h1 class="header center orange-text">FOOTBALL BOX</h1>
       <div class="row center">
         <h5 class="header col s12 light"><b>Берегите то, что было создано для Вас.</b></h5>
       </div>
-      <div class="row center">
-        <a href="#name" id="download-button" class="btn-large waves-effect waves-light orange">Started!</a>
-      </div>
+      
+     <!--  <div class="row center">
+        <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Started!</a>
+      </div> -->
       <br><br>
 
     </div>
@@ -73,7 +75,7 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h2 class="center light-blue-text"><i class="material-icons">art_track</i></h2>
             <h5 class="center"><b>Что из себя представляет:</b></h5>
 			       <p2 class="light">Игровая коробка в парке - городская гордость г.Шумерля. Чудный островок спорта и прекрасное место для игры в футбол/баскетбол. Построенное место относительно недавно по скромным меркам, но уже успевшее обзавестить хорошей славой среди молодёжи.</p2>
           
@@ -82,7 +84,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h2 class="center light-blue-text"><i class="material-icons">record_voice_over</i></h2>
             <h5 class="center"><b>Появление профессионального футбола</b></h5>
             <p2 class="light">Сделанное Саделла откровенное заявление заставило руководство Футбольной Ассоциации признать быстроту течения времени и внести необходимые изменения в своде правил для корректировки - введение такого понятия как профессиональный футболист. В виду этого данное событие оказало значительное влияние в начале 1880-х годов на мир футбола.</p2>
           
@@ -91,7 +93,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h2 class="center light-blue-text"><i class="material-icons">update</i></h2>
             <h5 class="center"><b>Первый футбольный мяч</b></h5>
 			       <p2 class="light">На этапе развития футбола мяч изготавливали из мочевых пузырей животных, которые быстро приходили в негодность, если по ним наносили достаточно сильные удары. Технология производства мяча качественно изменилась с открытием Чарльзом Гудиером в 1838 году вулканизированного каучука.</p2>
           </div>
@@ -100,11 +102,12 @@
 	</div>
   <br><br>
   <section>
-    <div class="forma" id="firma">
-    <form class="contact_form" id="#form_contact" action="contact-form.php" method="post" style="margin: auto; margin-top: -25px">
-      <h3 style="color: black; text-decoration: none; margin-left: 125px">Присоединяйся в наши ряды!</h3>
-        <p> 
-            <label for="name"><b>Имя:</b></label>
+
+    <form class="contact_form" action="contact-form.php" method="post" style="margin: auto; margin-top: -50px">
+     <h5 style="margin-left: 104px; color:  #CD5C5C; ">Присоединяйся в наши дружные ряды!</h5>  
+      <br>  
+        <p>
+            <label for="name">Имя:</label>
             <input type="text"  name="name" placeholder="Введите ваше имя" required />
         </p>
         <p>
