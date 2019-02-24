@@ -58,12 +58,14 @@ body {font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", san
 .form_hint, .required_notification {font-size: 11px;}
 
 .contact_form {
-    width: 700px; }
+    width: 700px; 
+    max-width: calc(50% - 5px); }
 
 .contact_form p {
     width: 650px;
     margin: 7px 10px 7px 10px;
-    padding: 0px; }
+    padding: 0px; 
+    max-width: calc(50% - 5px); }
 
 
 .contact_form label {
@@ -118,7 +120,8 @@ body {font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", san
     padding: 1px 6px;
     z-index: 999; 
     position: absolute; 
-    display: none; }
+    display: none; 
+    max-width: calc(50% - 5px); }
 
 .form_hint::before {
     content: "\25C0";
@@ -155,7 +158,8 @@ button.submit {
     font-weight: bold;
     padding: 6px 20px;
     text-align: center;
-    text-shadow: 0 -1px 0 #396715; }
+    text-shadow: 0 -1px 0 #396715; 
+    max-width: calc(50% - 5px); }
 
 button.submit:hover {
     opacity:.85;
